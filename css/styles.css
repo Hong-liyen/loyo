@@ -1173,6 +1173,11 @@ a,a:hover, button:hover{
 .social-icon a:hover .svg circle{
   fill:var(--main_color_hover);
 }
+/* apply */
+.index_apply h5{
+  color: #ff9100;
+}
+/* //apply */
 /* map */
 .index_map{
   position: relative;
@@ -1204,22 +1209,42 @@ a,a:hover, button:hover{
   max-width: 650px;
   z-index: 2;
 }
+/* .scape .txt:nth-child(odd) {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px #eaeaea;
+  padding: 20px;
+  max-width: 650px;
+  z-index: 2;
+} */
+/* .scape img:nth-child(odd) {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
 /* //scape */
 /* info */
 .qa {
   background-color: #fff;
-  padding: 16px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px #dfdfdf;
-  line-height: 2.5;
 }
 .qa .title {
+  border-left: 12px solid #8c6239;
   font-size: 1.6em;
   font-weight: 500;
   color: #8c6239;
+  padding-left: 20px;
+}
+.qa .txt {
+  padding: 25px;
+  line-height: 2.5;
 }
 .qa img{
   margin-right: 5px;
+}
+.qa span{
+  color: #ff4200;
+  font-weight: 450;
 }
 /* //info */
 /*goTop*/
