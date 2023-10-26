@@ -121,6 +121,10 @@ a,a:hover, button:hover{
 .editor ul{
   padding-left: 30px;
 }
+.small_title{
+  font-size: 1.4em;
+  letter-spacing: 5px;
+}
 /*banner*/
 .banner .swiper-slide a {
   display: block;
@@ -1247,6 +1251,23 @@ a,a:hover, button:hover{
   font-weight: 450;
 }
 /* //info */
+/* route */
+.route{
+  position: relative;
+  box-shadow: 0px 0px 5px 5px #e6e6e6;
+}
+.route .tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #e4b25a;
+  padding: 5px 15px;
+}
+.route .tag h5{
+  color: #fff;
+}
+/* //route */
 /*goTop*/
 .goTop {
   position: fixed;
@@ -2069,27 +2090,16 @@ footer.footer li span:first-child:after{
     opacity: 1;
   }
   /*//news*/
-  /* og */
-  .index_og {
-    padding-top: 280px;
-    background: url(../images/og_bg1.png) left bottom / 200px no-repeat,
-    url(../images/og_bg2.png) right center / 200px no-repeat,
-    url(../images/og_bg3.png) right bottom / 200px no-repeat,
-    url(../images/og_bg4.png) left center / 150px no-repeat,
-    url(../images/og_bg5.png) right top / 280px no-repeat,
-    url(../images/og_bg6.png) left top / 300px no-repeat;
+  /* route */
+  .route{
+    display: flex;
+    align-items: center;
   }
-  .index_og .title{
-    color: #ff7272;
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 5px;
+  .route .info{
+    display: flex;
+    justify-content: space-between;
   }
-  .index_og .contain, .about_us .contain{
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  /* //og */
+  /* //route */
   /* about */
   .about_list{
     padding: 10px;
@@ -3547,6 +3557,14 @@ footer.footer li span:first-child:after{
     transform: translateX(5px);
   }
   /*//footer*/
+  /* route */
+  .route{
+    padding: 20px;
+  }
+  .route .info > div{
+    margin-bottom: 20px;
+  }
+  /* //route */
   .lang {
     margin-right: 60px;
   }
